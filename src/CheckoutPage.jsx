@@ -24,6 +24,7 @@ export default function CheckoutPage() {
         <div className="text-2xl font-bold text-green-900 mb-2">$33.00</div>
         <div className="text-green-600 font-semibold mb-4">You’re almost there!</div>
         <img src="/images/receive.png" alt="what youll get" className="rounded-lg mb-4" />
+        <img src="/images/whoami.jpg" alt="what youll get" className="rounded-lg mb-4" />
         <p className="mb-6 text-gray-700 text-center">
           {/* You can shorten or customize this description */}
             
@@ -37,7 +38,7 @@ export default function CheckoutPage() {
         {/* Square Checkout Button */}
         <div ref={formRef} className="w-full flex flex-col items-center">
             <br/>
-            <h1 className="text-2xl font-bold text-gray-800 mb-4">Ready to explore your nature?</h1>
+            <h1 className="text-2xl font-bold text-green-800 mb-4">Ready to explore your nature?</h1>
             <p className="text-gray-600 text-sm items-center">Click below for a one on one exploration with a trusted guide:</p>
           <a
             href="https://square.link/u/JaOryQ09"
