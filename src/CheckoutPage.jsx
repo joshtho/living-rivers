@@ -10,7 +10,7 @@ export default function CheckoutPage() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center py-8">
       <div className="bg-white rounded-2xl shadow-lg max-w-xl w-full flex flex-col items-center overflow-hidden p-8">
-        <img src="/images/explore-your-nature.jpeg" alt="Product" className="rounded-lg mb-4" />
+        <img src="/living-rivers/images/explore-your-nature.jpeg" alt="Product" className="rounded-lg mb-4" />
         <button
           onClick={handleScrollToCheckout}
           className="mb-4 px-6 py-2 bg-green-900 text-white rounded font-semibold shadow hover:bg-green-800 transition cursor-pointer"
@@ -23,8 +23,8 @@ export default function CheckoutPage() {
         </p>
         <div className="text-2xl font-bold text-green-900 mb-2">$33.00</div>
         <div className="text-green-600 font-semibold mb-4">You’re almost there!</div>
-        <img src="/images/receive.png" alt="what youll get" className="rounded-lg mb-4" />
-        <img src="/images/whoami.jpg" alt="what youll get" className="rounded-lg mb-4" />
+        <img src="/living-rivers/images/receive.png" alt="what youll get" className="rounded-lg mb-4" />
+        <img src="/living-rivers/images/whoami.jpg" alt="what youll get" className="rounded-lg mb-4" />
         <p className="mb-6 text-gray-700 text-center">
           {/* You can shorten or customize this description */}
             
@@ -47,7 +47,7 @@ export default function CheckoutPage() {
             className="w-full bg-gray-200 text-black py-3 rounded font-bold text-lg mt-4 hover:bg-gray-300 transition cursor-pointer text-center flex items-center justify-center gap-2"
           >
             <img
-              src="/images/Square_LogoLockup_Black.png"
+              src="/living-rivers/images/Square_LogoLockup_Black.png"
               alt="Square"
               className="h-18 w-auto"
             />
@@ -62,7 +62,7 @@ export default function CheckoutPage() {
             className="w-full bg-gray-200 text-black py-3 rounded font-bold text-lg mt-4 hover:bg-gray-300 transition cursor-pointer text-center flex items-center justify-center gap-2"
           >
             <img
-              src="/images/Square_LogoLockup_Black.png"
+              src="/living-rivers/images/Square_LogoLockup_Black.png"
               alt="Square"
               className="h-18 w-auto"
             />
